@@ -8,7 +8,14 @@ Buscador de Películas y Series. Aqui vas a poder buscar tus títulos preferidos
    cd peliculas
    ```
 
-2. **Instala dependencias**
+2. **Variables de entorno**
+   Crea un archivo `.env.local` en la raíz y agrega la clave de OMDB y la URL base:
+   ```
+   OMDB_API_KEY=TU_API_KEY_DE_OMDB
+   BASE_URL=http://www.omdbapi.com
+   ```
+
+3. **Instala dependencias**
    ```bash
    npm install
    # o
@@ -17,7 +24,7 @@ Buscador de Películas y Series. Aqui vas a poder buscar tus títulos preferidos
    pnpm install
    ```
 
-3. **Modo desarrollo**
+4. **Modo desarrollo**
    ```bash
    npm run dev
    ```
